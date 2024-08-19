@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F2088B82C7343810042225E /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2088B72C7343810042225E /* StoriesView.swift */; };
+		9F2088BD2C739E370042225E /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2088BC2C739E370042225E /* CaptureView.swift */; };
 		9F3E2D582C64B2E3009FDC2E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E2D572C64B2E3009FDC2E /* ProfileView.swift */; };
 		9FC5F4772C637BE4009BE3B8 /* Instagram__SwiftUI_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5F4762C637BE4009BE3B8 /* Instagram__SwiftUI_App.swift */; };
 		9FC5F4792C637BE4009BE3B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5F4782C637BE4009BE3B8 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		9F2088B72C7343810042225E /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		9F2088BC2C739E370042225E /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
 		9F3E2D572C64B2E3009FDC2E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9FC5F4732C637BE4009BE3B8 /* Instagram (SwiftUI).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram (SwiftUI).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC5F4762C637BE4009BE3B8 /* Instagram__SwiftUI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram__SwiftUI_App.swift; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 				9F2088B72C7343810042225E /* StoriesView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		9F2088B92C739DF00042225E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5F4892C63823F009BE3B8 /* CameraView.swift */,
+				9F2088BC2C739E370042225E /* CaptureView.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		9FC5F46A2C637BE4009BE3B8 = {
@@ -91,10 +102,10 @@
 		9FC5F4862C6381F4009BE3B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F2088B92C739DF00042225E /* Camera */,
 				9F2088B62C73435C0042225E /* Home */,
 				9FC5F4782C637BE4009BE3B8 /* ContentView.swift */,
 				9FC5F4872C63821F009BE3B8 /* ExpolreView.swift */,
-				9FC5F4892C63823F009BE3B8 /* CameraView.swift */,
 				9FC5F48B2C63841B009BE3B8 /* NotificationsView.swift */,
 				9F3E2D572C64B2E3009FDC2E /* ProfileView.swift */,
 			);
@@ -173,6 +184,7 @@
 			files = (
 				9F2088B82C7343810042225E /* StoriesView.swift in Sources */,
 				9FC5F4792C637BE4009BE3B8 /* ContentView.swift in Sources */,
+				9F2088BD2C739E370042225E /* CaptureView.swift in Sources */,
 				9FC5F4772C637BE4009BE3B8 /* Instagram__SwiftUI_App.swift in Sources */,
 				9FC5F4882C63821F009BE3B8 /* ExpolreView.swift in Sources */,
 				9FC5F48A2C63823F009BE3B8 /* CameraView.swift in Sources */,
