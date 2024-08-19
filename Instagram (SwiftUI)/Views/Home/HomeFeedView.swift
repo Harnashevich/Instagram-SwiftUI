@@ -14,8 +14,11 @@ struct HomeFeedView: View {
                 VStack {
                     StoriesView()
                     
-                    ForEach(0...30, id: \.self) { num in
-                        PostView()
+                    ForEach(1...5, id: \.self) { num in
+                        PostView(
+                            userImageName: "user\(num)",
+                            imageName: "image\(num)"
+                        )
                             .padding(.bottom, 20)
                     }
                 }
@@ -26,14 +29,19 @@ struct HomeFeedView: View {
 }
 
 struct PostView: View {
+    let userImageName: String
+    let imageName: String
+    
     var body: some View {
         VStack {
-            PostHeaderView()
+            PostHeaderView(userImageName: userImageName)
             .padding()
             
             // Image
-            Image("foo")
+            Image(imageName)
+                .resizable()
                 .frame(width: 400, height: 400, alignment: .center)
+                .aspectRatio(contentMode: .fill)
                 .background(Color(.secondarySystemBackground))
             
             PostActionButtonsView()
@@ -57,7 +65,7 @@ struct PostView: View {
             Text("It's just caption text #newYear #trending #swiftUI and many other caprions")
                 .font(.headline)
                 .padding()
-                .padding(.top, -20)
+                .padding(.top, -15)
             
             // Comments
             
@@ -74,14 +82,16 @@ struct PostView: View {
 }
 
 struct PostHeaderView: View {
+    let userImageName: String
+    
     var body: some View {
         HStack {
             // user profile picture and username
-            Image(systemName: "person.circle")
+            Image(userImageName)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
                 .frame(width: 40, height: 40, alignment: .center)
-                .foregroundStyle(Color.blue)
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             
             Text("kanyeWest")
                 .foregroundStyle(Color.blue)
