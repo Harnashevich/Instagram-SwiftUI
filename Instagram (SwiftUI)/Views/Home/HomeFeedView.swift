@@ -93,7 +93,7 @@ struct PostHeaderView: View {
                 .frame(width: 40, height: 40, alignment: .center)
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             
-            Text("kanyeWest")
+            Text("Alex")
                 .foregroundStyle(Color.blue)
                 .bold()
             
