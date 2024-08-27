@@ -1,4 +1,4 @@
-# Instagram(SwiftUI) <img src="https://github.com/user-attachments/assets/6ffa2b76-a2c1-4b63-82af-8e64d4b61883" width="30" height="30"> 
+# Instagram(SwiftUI) <img src="https://github.com/user-attachments/assets/6ffa2b76-a2c1-4b63-82af-8e64d4b61883" width="30" height="30">  <img src="https://github.com/user-attachments/assets/e4b6b615-a5bf-4e24-a38d-c33789d87fb1" width="30" height="30">
 
 Small Instagram application on iOS.<br />
 The project is based on the iOS Academy course.
@@ -12,6 +12,6 @@ The project is based on the iOS Academy course.
 
 ## Technology stack
 
-• SwiftUI <img src="https://github.com/user-attachments/assets/e4b6b615-a5bf-4e24-a38d-c33789d87fb1" width="30" height="30"> <br />
+• SwiftUI <br />
 
 ![MyCollages](https://github.com/user-attachments/assets/7acfa6e8-8d98-4274-bc50-fcab9da800db)
